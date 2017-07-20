@@ -1,0 +1,110 @@
+body {
+  background-color: #1E8BC3;
+}
+
+input {
+  text-align: center;
+  border-radius: 10px;
+  border: white 1px;
+  outline: none;
+  margin: 5px 5px 5px 5px;
+}
+
+textarea {
+  border: solid white 1px;
+  outline: none;
+}
+
+.set-card-no {
+  background-color: #f39c12;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  color: #96281B;
+  font: 18px "Open Sans", sans-serif;
+}
+
+.enterNum {
+  font: 18px "Open Sans", sans-serif;
+  border: solid white 1px;
+  border-radius: 18px;
+  outline: none;
+}
+
+.save {
+  background-color: #F62459;
+  color: white;
+  font-size: 18px;
+  border: solid white 1px;
+  visibility: visible;
+  border-radius: 18px;
+  outline: none;
+}
+
+.save:hover {
+  background-color: #4ECDC4;
+  color: white;
+  font-size: 18px;
+  border: solid white 1px;
+  visibility: visible;
+}
+
+.edit {
+  background-color: white;
+  font-size: 18px;
+  border: solid white 1px;
+  border-radius: 18px;
+  visibility: collapse;
+  outline: none;
+}
+
+.edit:hover {
+  background-color: #1E8BC3;
+  color: white;
+}
+
+.notecard {
+  background-color: #87D37C;
+  margin: 5px;
+  width: 300px;
+  height: 300px;
+  float: left;
+  border-radius: 10px;
+  border: solid white 1px;
+  overflow: scroll;
+  text-align: center;
+}
+
+.term {
+  text-align: center;
+}
+
+.def {
+  text-indent: 5%;
+  padding: 2% 2% 2% 2%;
+}
+
+.done {
+  background-color: #1E8BC3;
+  border: solid white 1px;
+  border-radius: 10px;
+  color: white;
+  outline: none;
+}
+
+.done:hover {
+  background-color: #BF55EC;
+  border: solid white 1px;
+  border-radius: 10px;
+  color: white;
+}
+
+/* ============================
+EXTERNAL RESOURCE DOCS :
+[1] Understanding Font, CSS
+//
+https://developer.mozilla.org/en-US/docs/Web/CSS/font
+//MDN all the way! Forget W3S...
+[2] Flat UI Colors Hexicode
+//
+https://flatuicolors.com/
+=============================== */
