@@ -71,8 +71,7 @@ ToFigureOut: How to make this automatic
 when the user starts editing...
 */
 $(".lock").bind("click", function() {
-  $("#c-no").prop("readonly", true);
-  $("#c-no").css("background-color", "#bdc3c7");
+  $("#c-no").prop("readonly", true).css("background-color", "#bdc3c7");
   $(".save").css("visibility", "collapse");
   $(".edit").css("visibility", "visible");
 });
@@ -81,8 +80,7 @@ $(".lock").bind("click", function() {
 
 */
 $("#edit-c-no").click(function() {
-  $("#c-no").prop("readonly", false);
-  $("#c-no").css("background-color", "white");
+  $("#c-no").prop("readonly", false).css("background-color", "white");
   $(".edit").css("visibility", "collapse");
   $(".save").css("visibility", "visible");
   alert(
